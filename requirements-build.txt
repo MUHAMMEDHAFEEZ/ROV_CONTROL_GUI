@@ -1,0 +1,6 @@
+# ROV Control GUI Build Requirements
+# Additional packages needed for building executable
+
+pyinstaller>=5.0
+auto-py-to-exe
+cx_Freeze
