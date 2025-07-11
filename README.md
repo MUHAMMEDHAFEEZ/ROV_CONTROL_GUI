@@ -2,9 +2,10 @@
 # ROV Control System v1.0
 
 An advanced and integrated control system for Remotely Operated Vehicles (ROV) developed using Python and a modern GUI interface.
-
-![alt text](image.png)
-![alt text](image-1.png)
+<p align="center">
+    <img src="image.png" alt="alt text" width="320"/>
+    <img src="image-1.png" alt="alt text" width="320"/>
+</p>
 
 ## 🚀 Quick Start
 
