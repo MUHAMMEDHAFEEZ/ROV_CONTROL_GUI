@@ -39,7 +39,7 @@ def build_executable():
     ]
     
     # Add icon if it exists
-    icon_path = 'assets/icons/rov_icon.ico'
+    icon_path = 'assets/icons/logo.ico'
     if os.path.exists(icon_path):
         args.insert(4, f'--icon={icon_path}')
         print(f"Using icon: {icon_path}")

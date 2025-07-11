@@ -36,7 +36,7 @@ jobs:
         copy config.ini release\
         copy README.md release\
         copy LICENSE release\
-        if exist assets\icons\ copy assets\icons\rov_icon.png release\
+        if exist assets\icons\ copy assets\icons\logo.ico release\
         if exist assets\ xcopy assets release\assets\ /E /I
     
     - name: Upload artifacts
