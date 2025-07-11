@@ -1,0 +1,82 @@
+name: Build and Release ROV Control GUI
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install -r requirements-build.txt
+    
+    - name: Build executable
+      run: |
+        python build_exe.py
+    
+    - name: Create release archive
+      run: |
+        mkdir release
+        copy dist\ROV_Control_GUI.exe release\
+        copy dist\install.bat release\
+        copy config.ini release\
+        copy README.md release\
+        copy LICENSE release\
+        if exist assets\icons\ copy assets\icons\logo.ico release\
+        if exist assets\ xcopy assets release\assets\ /E /I
+    
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: ROV_Control_GUI_Windows
+        path: release/
+    
+    - name: Create Release
+      if: startsWith(github.ref, 'refs/tags/v')
+      uses: softprops/action-gh-release@v1
+      with:
+        files: |
+          release/*
+        name: ROV Control GUI ${{ github.ref_name }}
+        body: |
+          ## ROV Control GUI Release ${{ github.ref_name }}
+          
+          ### What's New
+          - Latest version of ROV Control GUI
+          - Ready-to-use Windows executable
+          - Complete installation package
+          
+          ### Download Instructions
+          1. Download `ROV_Control_GUI.exe` for direct use
+          2. Or download all files and run `install.bat` for system installation
+          
+          ### System Requirements
+          - Windows 10/11 (64-bit)
+          - 4GB RAM minimum
+          - 500MB free disk space
+          
+          ### Quick Start
+          1. Download and extract files
+          2. Run `ROV_Control_GUI.exe`
+          3. Configure your ROV settings
+          4. Start controlling your ROV!
+          
+          For issues and support, please visit the [Issues](https://github.com/MUHAMMEDHAFEEZ/ROV_CONTROL_GUI/issues) page.
+        draft: false
+        prerelease: false
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

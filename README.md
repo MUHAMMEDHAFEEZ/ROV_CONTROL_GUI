@@ -6,6 +6,23 @@ An advanced and integrated control system for Remotely Operated Vehicles (ROV) d
 ![alt text](image.png)
 ![alt text](image-1.png)
 
+## 🚀 Quick Start
+
+### Download Ready-to-Use Executable
+
+1. Go to [Releases](https://github.com/MUHAMMEDHAFEEZ/ROV_CONTROL_GUI/releases)
+2. Download the latest `ROV_Control_GUI.zip`
+3. Extract and run `ROV_Control_GUI.exe`
+4. Or use `install.bat` for system-wide installation
+
+### System Requirements
+
+- Windows 10/11 (64-bit)
+- Minimum 4GB RAM
+- 500MB free disk space
+- USB port for joystick (optional)
+- Network connection for ROV
+
 ## 🎯 Main Features
 
 ### 🎮 Advanced Control
