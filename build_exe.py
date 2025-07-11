@@ -41,7 +41,10 @@ def build_executable():
     # Add icon if it exists
     icon_path = 'assets/icons/rov_icon.ico'
     if os.path.exists(icon_path):
-        args.insert(-4, f'--icon={icon_path}')
+        args.insert(4, f'--icon={icon_path}')
+        print(f"Using icon: {icon_path}")
+    else:
+        print("Warning: Icon file not found, building without icon")
     
     print("Building ROV Control GUI executable...")
     print(f"Arguments: {args}")
