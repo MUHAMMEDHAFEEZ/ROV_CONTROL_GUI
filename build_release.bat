@@ -25,7 +25,7 @@ copy "dist\install.bat" "release\"
 copy "config.ini" "release\"
 copy "README.md" "release\"
 copy "LICENSE" "release\"
-copy "assets\icons\rov_icon.png" "release\"
+copy "assets\icons\logo.ico" "release\"
 if exist "assets" xcopy "assets" "release\assets\" /E /I
 
 echo.
