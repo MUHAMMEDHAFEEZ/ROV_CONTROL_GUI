@@ -286,12 +286,6 @@ pause >nul
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 👥 Team
-
-* **Lead Developer**: ROV Team
-* **Design**: Modern and responsive design
-* **Testing**: Thorough testing of all features
-
 ## 📞 Support & Contact
 
 For technical support or inquiries:
