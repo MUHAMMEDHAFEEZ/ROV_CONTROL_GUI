@@ -1,0 +1,16 @@
+2025-07-11 09:41:03,286 - ROV_System - INFO - Logging system started - Log file: logs/rov_log_20250711_094103.log
+2025-07-11 09:41:03,287 - __main__ - INFO - Starting ROV Control System
+2025-07-11 09:41:03,364 - ROV.MotorController - INFO - تم تهيئة متحكم المحركات
+2025-07-11 09:41:03,842 - ROV.JoystickInput - INFO - تم تهيئة نظام الجويستيك
+2025-07-11 09:41:03,843 - ROV.ROVController - INFO - تم تهيئة متحكم ROV
+2025-07-11 09:41:04,347 - ROV.MainWindow - INFO - Main window initialized successfully
+2025-07-11 09:41:04,402 - __main__ - INFO - Application started successfully
+2025-07-11 09:41:06,865 - ROV.ROVController - INFO - بدء إغلاق النظام...
+2025-07-11 09:41:06,865 - ROV.JoystickInput - INFO - تم إيقاف قراءة إدخال الجويستيك
+2025-07-11 09:41:06,865 - ROV.JoystickInput - INFO - تم إيقاف قراءة إدخال الجويستيك
+2025-07-11 09:41:06,866 - ROV.JoystickInput - INFO - تم قطع الاتصال بالجويستيك
+2025-07-11 09:41:06,866 - ROV.MotorController - INFO - تم إيقاف حلقة التحكم
+2025-07-11 09:41:06,866 - ROV.MotorController - INFO - تم إيقاف جميع المحركات
+2025-07-11 09:41:06,866 - ROV.ROVController - INFO - تم قطع الاتصال مع ROV
+2025-07-11 09:41:06,866 - ROV.ROVController - INFO - تم إغلاق النظام بنجاح
+2025-07-11 09:41:06,866 - ROV.MainWindow - INFO - تم إغلاق التطبيق

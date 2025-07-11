@@ -1,0 +1,14 @@
+2025-07-11 08:56:22,251 - ROV_System - INFO - Logging system started - Log file: logs/rov_log_20250711_085622.log
+2025-07-11 08:56:22,252 - __main__ - INFO - Starting ROV Control System
+2025-07-11 08:56:22,324 - ROV.MotorController - INFO - Motor controller initialized
+2025-07-11 08:56:22,723 - ROV.JoystickInput - INFO - No joystick detected
+2025-07-11 08:56:22,723 - ROV.JoystickInput - INFO - Joystick input system initialized
+2025-07-11 08:56:22,723 - ROV.SerialComm - INFO - Serial communication initialized
+2025-07-11 08:56:22,724 - ROV.NetworkComm - INFO - Network communication initialized
+2025-07-11 08:56:22,789 - ROV.ROVController - INFO - ROV controller initialized
+2025-07-11 08:56:23,349 - ROV.ControlPanel - INFO - Control panel initialized
+2025-07-11 08:56:23,351 - ROV.TelemetryDisplay - INFO - Telemetry display initialized
+2025-07-11 08:56:23,365 - ROV.MainWindow - INFO - Main window initialized
+2025-07-11 08:56:23,421 - __main__ - INFO - Application started successfully
+2025-07-11 08:56:25,228 - ROV.MainWindow - INFO - Closing application
+2025-07-11 08:56:25,233 - ROV.MainWindow - INFO - Application closed

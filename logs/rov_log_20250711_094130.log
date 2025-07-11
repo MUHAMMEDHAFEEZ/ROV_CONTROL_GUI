@@ -1,0 +1,16 @@
+2025-07-11 09:41:30,808 - ROV_System - INFO - Logging system started - Log file: logs/rov_log_20250711_094130.log
+2025-07-11 09:41:30,879 - ROV.MotorController - INFO - تم تهيئة متحكم المحركات
+2025-07-11 09:41:31,357 - ROV.JoystickInput - INFO - تم تهيئة نظام الجويستيك
+2025-07-11 09:41:31,358 - ROV.ROVController - INFO - تم تهيئة متحكم ROV
+2025-07-11 09:41:31,838 - ROV.MainWindow - INFO - Main window initialized successfully
+2025-07-11 09:42:15,402 - ROV.SerialComm - ERROR - خطأ في الاتصال التسلسلي: could not open port 'COM3': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+2025-07-11 09:42:15,405 - ROV.ROVController - ERROR - فشل في الاتصال بـ ROV
+2025-07-11 09:42:18,334 - ROV.ROVController - INFO - بدء إغلاق النظام...
+2025-07-11 09:42:18,334 - ROV.JoystickInput - INFO - تم إيقاف قراءة إدخال الجويستيك
+2025-07-11 09:42:18,335 - ROV.JoystickInput - INFO - تم إيقاف قراءة إدخال الجويستيك
+2025-07-11 09:42:18,335 - ROV.JoystickInput - INFO - تم قطع الاتصال بالجويستيك
+2025-07-11 09:42:18,335 - ROV.MotorController - INFO - تم إيقاف حلقة التحكم
+2025-07-11 09:42:18,336 - ROV.MotorController - INFO - تم إيقاف جميع المحركات
+2025-07-11 09:42:18,336 - ROV.ROVController - INFO - تم قطع الاتصال مع ROV
+2025-07-11 09:42:18,336 - ROV.ROVController - INFO - تم إغلاق النظام بنجاح
+2025-07-11 09:42:18,336 - ROV.MainWindow - INFO - تم إغلاق التطبيق

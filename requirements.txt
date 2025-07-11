@@ -1,0 +1,15 @@
+pyqt6
+pyserial
+inputs
+opencv-python
+pyqtgraph
+configparser
+numpy
+pygame
+pyyaml
+sqlite3
+matplotlib
+Pillow
+asyncio
+websockets
+flask
